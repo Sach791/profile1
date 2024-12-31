@@ -30,7 +30,6 @@ header p {
 }
 
 nav ul {
-  background: #333;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -62,8 +61,8 @@ main {
 }
 
 h2 {
-  text-align: center;
-  color: #4CAF50;
+  /* text-align: center; */
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -73,7 +72,7 @@ ul {
 }
 
 .highlight {
-  color: #FF6347; /* Tomato red for highlights */
+    font-weight: bold;
 }
 
 .profile-image {
@@ -82,11 +81,11 @@ ul {
   border-radius: 50%;
   display: block;
   margin: 0 auto 20px;
-  border: 5px solid #FFD700; /* Gold border */
+  /* border: 5px solid #FFD700; Gold border */
 }
 
 footer {
-  background: #333;
+  background: #4CAF50;
   color: white;
   text-align: center;
   padding: 20px 0;
